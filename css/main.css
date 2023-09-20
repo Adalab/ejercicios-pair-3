@@ -1,9 +1,19 @@
+.page {
+  display: flex;
+  justify-content: center;
+  margin-top: 20%;
+}
+
 .head {
     background: #fc0;
     height: 100px;
     position: relative;
     width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
+
   .face {
     font-family: 'courier new', serif;
     font-size: 2.5em;
@@ -13,3 +23,4 @@
     top: 50%;
     transform: translate(-50%, -60%) rotate(90deg);
   }
+  
